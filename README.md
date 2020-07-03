@@ -1,5 +1,4 @@
-# attention_augmented_conv
-Implementation of attention-augmented convolution layer.
+# Implementation of attention-augmented convolution layer.
 
 Tensorflow implementation of the Attention Augmented Convolutional Networks proposed in
 
@@ -11,9 +10,11 @@ A Pytorch implementation can be found from [leaderj1001](Attention-Augmented-Con
 
 Usage example: 
 
-`from attn_augconv import AugmentedConv
+```
+from attn_augconv import AugmentedConv
 
- input # shape(-1, 64, 64, 3) 
+ #input shape(-1, 64, 64, 3)
  aug_conv_op1 = AugmentedConv(Fin=3, Fout=64, k=(3,3), dk=16, dv=16, Nh=4)
- output = aug_conv_op1.augmented_conv2d(input) # (-1, 64, 64, 64)
-`
+ output = aug_conv_op1.augmented_conv2d(input)
+ #output shape (-1, 64, 64, 64)
+```
