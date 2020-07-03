@@ -2,7 +2,7 @@
 
 Tensorflow implementation of the Attention Augmented Convolutional Networks proposed in
 
-Irwan Bello Barret Zoph Ashish Vaswani Jonathon Shlens, Quoc V. Le. [__Attention Augmented Convolutional Networks.__](https://arxiv.org/pdf/1904.09925v1.pdf). _Proc. ICCV_, 2019
+Irwan Bello, Barret Zoph, Ashish Vaswani, Jonathon Shlens, Quoc V. Le. [__Attention Augmented Convolutional Networks.__](https://arxiv.org/pdf/1904.09925v1.pdf). _Proc. ICCV_, 2019
 
 ![image](figure/aac.png)
 
